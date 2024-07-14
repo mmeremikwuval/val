@@ -1,0 +1,459 @@
+/* title bar starts here */
+.title-bar-div {
+  background-color: white;
+  width: 1333px;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3px;
+  color: rgb(164, 155, 155);
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+}
+.title-div {
+  font-size: 22px;
+  justify-content: space-around;
+  display: flex;
+  padding-right: 100px;
+}
+.nav-bar-div {
+  display: flex;
+  gap: 40px;
+}
+.search-list-icon-div {
+  display: flex;
+  padding-left: 40px;
+}
+.list-icon {
+  display: none;
+}
+.sun-moon-div {
+  display: flex;
+  margin-left: 40px;
+  width: 40px;
+}
+.sun-icon {
+  color: yellow;
+}
+.moon-icon {
+  color: black;
+  display: none;
+}
+/* title bar ends here */
+
+/* hero section starts here */
+.hero-div {
+  height: 100vh;
+  background-image: url(moon3.jpg);
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  font-size: 20px;
+}
+.button-div-hero-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 600px;
+  height: 50px;
+  column-gap: 10px;
+}
+.read-more {
+  background-color: blueviolet;
+  border-color: none;
+  border-radius: 10px;
+  width: 130px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.download {
+  background-color: transparent;
+
+  border-color: white;
+  border-radius: 10px;
+  width: 130px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* hero section ends here */
+
+/* section 2 starts here */
+.main-div-section-2 {
+  height: 80vh;
+  display: flex;
+  align-items: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* section 2 left starts here */
+.left-div-section-2 {
+  width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 103px;
+}
+.img-1 {
+  width: 400px;
+}
+/* section 2 left ends here */
+
+/* section 2 right starts here */
+.right-div-section-2 {
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: center;
+}
+.button-div-section-2 {
+  padding-top: 50px;
+}
+button {
+  background-color: blueviolet;
+  border-radius: 10px;
+  width: 130px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* section 2 right ends here */
+/* section 2 ends here */
+/* section 3 starts here */
+/* section 3 left starts here */
+.main-div-section-3 {
+  width: 1333px;
+  display: flex;
+  background-color: rgb(188, 188, 210);
+  align-items: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.left-div-section-3 {
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: center;
+  margin-left: 103px;
+}
+.button-div {
+  padding-top: 50px;
+}
+.button-section-3 {
+  border-color: none;
+  border-radius: 10px;
+  width: 230px;
+}
+/* -section-3 left ends here */
+/* section 3 right starts here */
+.right-div-section-3 {
+  width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-2 {
+  width: 400px;
+}
+/* section 3 right ends here */
+/* section 3 ends here */
+/* section 4 starts here */
+
+.section-4-div {
+  background-image: url(img03.jpg);
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  margin-top: -33px;
+}
+.section-4-text-div {
+  color: white;
+}
+
+.section-4-h1 {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+.section-4-p {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-4-button-div {
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  padding-top: 30px;
+}
+/* section 4 ends here */
+/* section 5 starts here */
+.section-5-div {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+.section-5-h1 {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+.section-5-p {
+  color: grey;
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-5-button-div {
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.section-5-img-div {
+  display: flex;
+}
+.section-5-img {
+  width: 900px;
+  height: 400px;
+}
+
+/* section 5 ends here */
+/* section 6 starts here */
+.section-6-text-div {
+  background-color: black;
+  margin-top: -35px;
+}
+.section-6-h1 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.section-6-p {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.section-6-image-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -35px;
+}
+.section-6-image-div div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section-6-image-div div {
+  width: calc(100% / 4);
+}
+
+/* section 6 ends here */
+/* section 7 starts here */
+.section-7-div {
+  background-image: url(sky3.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: -33px;
+}
+.section-7-h2 {
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+.section-7-p-1 {
+  text-align: center;
+  width: 50%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+.section-7-p-2 {
+  text-align: center;
+  width: 50%;
+  color: rgb(140, 78, 78);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  display: none;
+}
+.section-7-div-img {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-7-img-1 {
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+  border-radius: 100%;
+  display: none;
+}
+.section-7-name-1 {
+  text-align: center;
+  width: 50%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  display: none;
+}
+.section-7-img-2 {
+  width: 150%;
+  height: 150%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.section-7-name-2 {
+  text-align: center;
+  width: 50%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+/* section 7 ends here */
+/* section 8 starts here */
+.section-8-div {
+  height: 300px;
+  padding-top: 20px;
+}
+.section-8-h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.section-8-img-div img {
+  width: 60px;
+  height: 60px;
+  padding-left: 200px;
+}
+marquee {
+  opacity: 50%;
+}
+/* section 8 ends here */
+/* section 9 ends here */
+.section-9-div {
+  height: 150px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.section-9-text-div {
+  width: 500px;
+}
+.section-9-button-div {
+  width: 130px;
+  margin-left: 100px;
+}
+/* section 9 ends here */
+/* section 10 ends here */
+.section-10-div {
+  height: 150px;
+  background-color: black;
+  display: flex;
+}
+.section-10-h5 {
+  color: white;
+  margin-left: 200px;
+  margin-top: 73px;
+}
+.section-10-icon-div {
+  width: 500px;
+  padding-left: 300px;
+}
+.section-10-icon-div i {
+  color: white;
+  margin-top: 73px;
+  margin-left: 10px;
+}
+/* section 10 ends here */
+/* media qeury starts here*/
+@media (max-width: 1024px) {
+}
+@media (max-width: 834px) {
+  .nav-bar-div {
+    display: none;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .list-icon {
+    display: contents;
+  }
+  .search-icon {
+    display: none;
+  }
+  .hero-div {
+    justify-content: center;
+    align-items: center;
+  }
+  .section-4-image-div div {
+    width: calc(100% / 2);
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+  .button-div-hero-section {
+    width: 150px;
+    height: 500px;
+    row-gap: 10px;
+    padding-left: 10px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .download {
+    background-color: black;
+    border: none;
+  }
+  /* section 2 media qeury starts here */
+
+  .right-div-section-2 {
+    background-color: blue;
+  }
+  /* section 2 media qeury ends here */
+}
+/* media query ends here*/
